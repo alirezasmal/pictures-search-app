@@ -11,7 +11,7 @@
 # production
 /build
 #  api
-/api.js
+/src/api.js
 
 # misc
 .DS_Store
