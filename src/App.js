@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import ImageList from './components/ImageList';
 import SearchBar from './components/SearchBar';
-import { ACCESS_KEY as YOUR_ACCESS_KEY } from './api/api.env';
+import { ACCESS_KEY as YOUR_ACCESS_KEY } from './api.js';
 
 class App extends Component {
   state = { images: [] };
