@@ -7,7 +7,10 @@ class SearchBar extends Component {
   //   event Handler
   onFormSubmit = (event) => {
     event.preventDefault();
-    // ! Passed TO APP COMPONENT
+
+    // * invoking function from APP COMPONENT ==> "onSubmit" was "OnSearchSubmit"
+    // * that we passed it in as a props into our searchBar
+    // * Component
     this.props.onSubmit(this.state.searchTerm);
     this.setState({ searchTerm: '' });
   };

@@ -19,7 +19,7 @@ class App extends Component {
     //     params: { query: term },
     //     headers: {
     //       Authorization:
-    //         'Client-ID 8a16ygXI27EHljnT3wHQFtfpAZHVujNIZJy7BlD-xpI',
+    //         'Client-ID YOUR_ACCESS_KEY',
     //     },
     //   })
     //   .then((response) => {
@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div>
         <SearchBar onSubmit={this.OnSearchSubmit} />
-        FOUND {this.state.images.length} images
+        {/* FOUND {this.state.images.length} images */}
         <ImageList images={this.state.images} />
       </div>
     );
