@@ -13,7 +13,7 @@ class App extends Component {
     );
     console.log(response.data.results);
     this.setState({ images: response.data.results });
-    // ! same Functionality with code bellow
+    // ! same Functionality with code below
     // axios
     //   .get('https://api.unsplash.com/search/photos', {
     //     params: { query: term },
